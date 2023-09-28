@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sistema.DTO\Sistema.DTO.csproj" />
+    <ProjectReference Include="..\Sistema.Model\Sistema.Model.csproj" />
+  </ItemGroup>
+
+</Project>
